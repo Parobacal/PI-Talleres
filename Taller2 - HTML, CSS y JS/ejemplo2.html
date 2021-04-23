@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+    <head>
+        <title> EJEMPLO 2 </title>
+        <link rel="stylesheet" href="estilo.css" type="text/css"></link>
+        <script src="calculo.js"></script>
+    </head>
+    <body>
+        <center>
+        <h1> TALLER 2, EJEMPLO 1</h1>
+        <h1> HOY ES LUNES </h1>
+        <h3> Ejemplos de CSS Y JS <h3>
+        <h4> Ingresa la resistencia y la corriente para obtener el voltaje. </h4>
+        </center>
+        <div class="datos">
+            <layer for="resistencia"> Ingrese la resistencia: </layer>
+            <input type="text" id="resistencia" name="input1">
+            <layer for="corriente"> Ingrese la corriente: </layer>
+            <input type="text" id="corriente" name="input2">
+        </div>
+        <div class="respuesta">
+            <button class="btn" onclick="calcularVoltaje()"> CALCULAR </button>
+            <input type="text" id="voltaje" name="input3">
+        </div>
+    </body>
+</html>
